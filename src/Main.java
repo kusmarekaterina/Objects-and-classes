@@ -7,6 +7,7 @@ public class Main {
         Book book2 = new Book("Жизнь и судьба", author2, 2005);
         book2.setYearPublishing(2007);
         System.out.println(book2);
+        System.out.println(book1.equals(book2));
 
     }
 }
